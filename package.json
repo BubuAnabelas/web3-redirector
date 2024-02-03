@@ -1,0 +1,28 @@
+{
+  "license": "MIT",
+  "author": {
+    "name": "Joaquin Serna"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ],
+  "dependencies": {
+    "@unstoppabledomains/resolution": "^9.0.0",
+    "pretty-print-json": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.259",
+    "@types/node": "^20.11.0",
+    "buffer": "^6.0.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.12",
+    "vite-plugin-node-polyfills": "^0.19.0",
+    "vite-plugin-web-extension": "^4.1.1"
+  }
+}

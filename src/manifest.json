@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "web3 redirector",
+  "version": "0.0.1",
+  "author": "Joaquin Serna",
+  "background": {
+    "scripts": [
+      "scripts/background.ts"
+    ],
+    "persistent": true
+  },
+  "web_accessible_resources": [
+    "scripts/error.ts"
+  ],
+  "options_ui": {
+    "page": "index.html",
+    "open_in_tab": false
+  },
+  "permissions": [
+    "*://*.google.com/*", "*://*.duckduckgo.com/*", "*://*.yahoo.com/*", "*://*.yandex.ru/*", "*://*.qwant.com/*", "*://*.mojeek.com/*", "*://*.aol.co.uk/*", "*://*.baidu.com/*", "*://*.bing.com/*", "*://*.wiki.com/*",
+    "*://*.crypto/*",
+    "*://*.zil/*",
+    "*://*.eth/*",
+    "*://*.wallet/*",
+    "*://*.nft/*",
+    "*://*.888/*",
+    "*://*.blockchain/*",
+    "*://*.bitcoin/*",
+    "*://*.dao/*",
+    "*://*.x/*",
+    "*://*.polygon/*",
+    "storage",
+    "webRequest",
+    "webRequestBlocking"
+  ]
+}
